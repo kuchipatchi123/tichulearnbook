@@ -1,0 +1,394 @@
+[
+  {
+    "path": "/cards/sword/2.png",
+    "sourceFile": "sword_2.png",
+    "sha256": "aecf889ae9d4e2f453b5b933be5a2a63d2265df18c8f1f1cbf56f99dcbf8991f",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/3.png",
+    "sourceFile": "sword_3.png",
+    "sha256": "0336972da274cf133c2b667eb2bf9e2fba735cf8d9bb64cf20854d3b84e643ef",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/4.png",
+    "sourceFile": "sword_4.png",
+    "sha256": "37b9aa5a6698e666794ace77c53818b725ea6248238dd1b6657c45491ac098b4",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/5.png",
+    "sourceFile": "sword_5.png",
+    "sha256": "f0f9e67328b0de42e7d91525dc75e262055603695126493954a4d7b10e7b2d77",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/6.png",
+    "sourceFile": "sword_6.png",
+    "sha256": "459a8679c3a854def8d4d988dfb8c8794da002266485fe999557c894c187a696",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/7.png",
+    "sourceFile": "sword_7.png",
+    "sha256": "2f406af4a12028ad2935bfbc2a58beb160bb999d3c9fdaea19c0ddb84584bb87",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/8.png",
+    "sourceFile": "sword_8.png",
+    "sha256": "611c50e586868a3d7519f69ae1d966389867a05f7f426a2bdc437a216be4ae30",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/9.png",
+    "sourceFile": "sword_9.png",
+    "sha256": "b29581788495d9161a68bd0db7e3461a15c8e552eb1e0aacef76da084a386323",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/10.png",
+    "sourceFile": "sword_10.png",
+    "sha256": "ac7c9413591967bc48c303f71665af3d25978badd313b7b05de1f7f560d650d5",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/J.png",
+    "sourceFile": "sword_j.png",
+    "sha256": "18baa9710e8daaacf9f3ca285a5255ba3e949167983308405e7f3b03790cc895",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/Q.png",
+    "sourceFile": "sword_q.png",
+    "sha256": "c7d5a2dc8e5398b852f07e8d7d2bc2f9deb974726aadca716ddf6b658bd8de12",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/K.png",
+    "sourceFile": "sword_k.png",
+    "sha256": "7a1750938e524b955746e2172f8f1dfa9527b387326a9f86c7d9deab07983bf6",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/sword/A.png",
+    "sourceFile": "sword_a.png",
+    "sha256": "5aea6279b745a5e66b8f9761d5ef69c443e63cf1b235478bca6d32f2158377c7",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/2.png",
+    "sourceFile": "moon_2.png",
+    "sha256": "14653ecd28bec2ff557be153bb7b0a332f57e389261d0c6ce140689b4c537b0c",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/3.png",
+    "sourceFile": "moon_3.png",
+    "sha256": "7cdf69aaec5817abc00e98dd31bef11560077302da6a7e52b981c57a5ac95099",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/4.png",
+    "sourceFile": "moon_4.png",
+    "sha256": "cd98cf3da7bc5f4ab58930a819582c02c1671fe9e56e3d700ae7098c27ea9eb1",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/5.png",
+    "sourceFile": "moon_5.png",
+    "sha256": "c79b9bb931b2a9a731bf223b76d5d44f079830c88fddbd8f44c580f1821c72f4",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/6.png",
+    "sourceFile": "moon_6.png",
+    "sha256": "630e8132d7d3a92fdcbf8877e1747c8bd185a758311d938eb8786627d1e8290c",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/7.png",
+    "sourceFile": "moon_7.png",
+    "sha256": "108de556bf06a3f4b89861a080d143b60e82956005253aecd0ad3cd0452b08c4",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/8.png",
+    "sourceFile": "moon_8.png",
+    "sha256": "961181ec44da8220f7bd657f7c9484e7aa56fa7a60a798a9c75ffe323203ba9a",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/9.png",
+    "sourceFile": "moon_9.png",
+    "sha256": "fae36d84b0e4a2e6c9247e412b8ae4ba91d2f7cbb0a24d9b527caedc621231d8",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/10.png",
+    "sourceFile": "moon_10.png",
+    "sha256": "4e376f234bab3a29ddba5dd55f9a01e449ddead2aff78ba15daf10cbc361159c",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/J.png",
+    "sourceFile": "moon_j.png",
+    "sha256": "bd88cb3c0aeb5b4093c04b0bfdeb2c8f5d21ad929ea7b9feb6627a80f34ab30e",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/Q.png",
+    "sourceFile": "moon_q.png",
+    "sha256": "19f1293e686405af761170d9a7cd5403fcc342cd529a9e437f29c5b7c1da6689",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/K.png",
+    "sourceFile": "moon_k.png",
+    "sha256": "525835fc77f4cc725c726db34ae9af6a46963ac8e74d6c410a26364029b4a0d4",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/crescent/A.png",
+    "sourceFile": "moon_a.png",
+    "sha256": "cc487ba53110d1dea8122319d4986e70a213d04231484bf993afedf8215a0404",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/2.png",
+    "sourceFile": "star_2.png",
+    "sha256": "203b5f9abad1abecb8d2884fd80ca1898e5f5478c5962c788ebb8d08b1b8c3d4",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/3.png",
+    "sourceFile": "star_3.png",
+    "sha256": "f9c9b32869599bf53f250e80bb36ff8e12122ef11fc3dfa8fe33c1dca3f7e377",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/4.png",
+    "sourceFile": "star_4.png",
+    "sha256": "74af0892ab0d56e141a20ed2ece39d9f1a07e844ffd2d10bd2fa7ea0d7d6299d",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/5.png",
+    "sourceFile": "star_5.png",
+    "sha256": "4bf9ec4c29260472dcc0a64813af518cd98418303da780eadce8b57085a8fe87",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/6.png",
+    "sourceFile": "star_6.png",
+    "sha256": "3367a2e448a05aa0818142c5682b7dfce4010574c205d162d477f13b0dfa35c1",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/7.png",
+    "sourceFile": "star_7.png",
+    "sha256": "c9b4a4534393f3452b03bf3ece057e1a5545f7279160cc3240643ddea75e0093",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/8.png",
+    "sourceFile": "star_8.png",
+    "sha256": "2743e9d429ec5a77db144a2162ab99c8e974d76e059803869b47c668fef4a5b7",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/9.png",
+    "sourceFile": "star_9.png",
+    "sha256": "09d2b7bda32a9298efc7ec2d3869c46656b1144d66d6de43f75459b754d38997",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/10.png",
+    "sourceFile": "star_10.png",
+    "sha256": "9927cea44d4abcb89354cc2e1c9f1c8acdb868f755ea7a0555b801b145f8237d",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/J.png",
+    "sourceFile": "star_j.png",
+    "sha256": "23fb7609f178bd20106da394fbabcc6429597ceec3cf00e8f34c0dd24547e255",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/Q.png",
+    "sourceFile": "star_q.png",
+    "sha256": "56f81f32be7e53c721de71fbd8d2805f6155f1c4933c91714f948e9e91b5139b",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/K.png",
+    "sourceFile": "star_k.png",
+    "sha256": "f04d91ac13c62749d20fe32c4e02f3e35da9eeaad2bd524044aa9e2179341298",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/star/A.png",
+    "sourceFile": "star_a.png",
+    "sha256": "5a3b1d2c9586f23456ff97bdecb37dd06d475a8466ae66aa22277dc4a247766c",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/2.png",
+    "sourceFile": "house_2.png",
+    "sha256": "57836127f00ddd859e0defdee82eb5a46f2364a055c58991ea35c9b2314d31b6",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/3.png",
+    "sourceFile": "house_3.png",
+    "sha256": "2155cf01eb89f8488ced876a2046eaf6b9905805c2ddfd2812cb3db14160c86c",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/4.png",
+    "sourceFile": "house_4.png",
+    "sha256": "a450f4d48bbdaf60041f0a0ce7012e3f692f98f0c37e11ca78823643e69f4971",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/5.png",
+    "sourceFile": "house_5.png",
+    "sha256": "46c101267166fca0b05598f2b070492844d626ce3ba8cbbafb9937a523399a54",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/6.png",
+    "sourceFile": "house_6.png",
+    "sha256": "5852c4d5b809deee37c2c57b35ddebc6f62fd7e10e0102a727c848d1ccebe0b0",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/7.png",
+    "sourceFile": "house_7.png",
+    "sha256": "e97c11a638dc1c35e6c2749c49b013a00851825293cd139d9f74424f1335654e",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/8.png",
+    "sourceFile": "house_8.png",
+    "sha256": "e04df2b97804a7810e620c03dbf80ad2910ba7e7adcf6f0388e5ed4cf891e80a",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/9.png",
+    "sourceFile": "house_9.png",
+    "sha256": "6aef0280a7ad8f465db950ddf4db516c1dda9d9d8d707faa5a7c0e4677b0481a",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/10.png",
+    "sourceFile": "house_10.png",
+    "sha256": "51c0420290f42effd60815d741500011ef3c92b67bbda49eaf706bd79afb7dde",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/J.png",
+    "sourceFile": "house_j.png",
+    "sha256": "6e081674969ab6abb275d0cf46e044f7c6fcafff6d017df1085a67943c592b75",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/Q.png",
+    "sourceFile": "house_q.png",
+    "sha256": "63d575754524bc1a4dd0407a67b43e5ec1a1bcbe0b09c91fc207f8706309045a",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/K.png",
+    "sourceFile": "house_k.png",
+    "sha256": "1c24992ac4dc3f15ce1374d48439646e5af3ceba1889dc9508546b12a657d4ae",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/house/A.png",
+    "sourceFile": "house_a.png",
+    "sha256": "3b45feb358f2249fccb513723b6d80c6ae17903dfead607acd9b5eef7f30e7fc",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/special/mahjong.png",
+    "sourceFile": "special_sparrow.png",
+    "sha256": "834406d5c4ddd954d3e04d8c4209363f6db4d541f1ba8f2f5a248130edad843f",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/special/dog.png",
+    "sourceFile": "special_dog.png",
+    "sha256": "c27a2f2ce3df7658b5966e8977700fbe2d2062d6d1fb1d6ca6d70aa7d6c73437",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/special/phoenix.png",
+    "sourceFile": "special_phoenix.png",
+    "sha256": "51c6c1a02a7b2462ded93a09064844b2430afd78205e0e1186703db53c2a1274",
+    "width": 1000,
+    "height": 1530
+  },
+  {
+    "path": "/cards/special/dragon.png",
+    "sourceFile": "special_dragon.png",
+    "sha256": "41df32ec143b94003dec4635289c4c139f21d14d2bc329ff1868add73985a8d8",
+    "width": 1000,
+    "height": 1530
+  }
+]

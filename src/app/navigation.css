@@ -1,0 +1,250 @@
+/* Shared information navigation above, sequential navigation below. */
+.original-flow .restored-guide{height:100dvh;min-height:0;max-height:100dvh;overflow:hidden;border:0;background:#fff}
+.original-flow .top-navigation{height:88px;min-height:88px;display:flex;align-items:center;gap:16px;padding:14px 20px;border-bottom:1px solid #e5e5e5;background:#fff;flex-shrink:0}
+.original-flow .brand-home{width:88px;min-width:88px;height:54px;padding:0;background:transparent;border:0;border-radius:0}
+.original-flow .brand-home>span{width:88px;height:52px;display:flex;align-items:center;justify-content:center}
+.original-flow .brand-home img{display:block;width:104px;max-width:none;height:auto;filter:drop-shadow(2px 0 0 #111) drop-shadow(-2px 0 0 #111) drop-shadow(0 2px 0 #111) drop-shadow(0 -2px 0 #111)}
+.original-flow .top-navigation nav{display:flex;gap:8px;flex:1;min-width:0}
+.original-flow .top-navigation nav button{flex:1;min-width:0;min-height:44px;padding:10px 8px;border:1px solid #e3e3e3;border-radius:999px;background:#f2f2f2;color:#111;font-size:15px;font-weight:700;white-space:nowrap}
+.original-flow .top-navigation nav button[aria-current]{background:#111;color:#fff;border-color:#111}
+.original-flow .restored-guide>.reader{flex:1;min-height:0;height:auto;overflow:hidden;padding:0;display:flex;flex-direction:column}
+.original-flow .restored-guide .slide-window{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;padding:24px 22px 32px}
+.original-flow .restored-guide .guide-slide{padding:0;min-height:0;overflow:visible}
+.original-flow .restored-guide h1{font-size:28px;line-height:1.35;font-weight:800;margin-bottom:28px;white-space:normal;word-break:keep-all}
+.original-flow .restored-guide .slide-copy p{font-size:17px;line-height:1.7}
+.original-flow .restored-guide .home-core h2{font-size:20px;line-height:1.5}
+.original-flow .restored-guide .home-core{margin-bottom:20px}
+.original-flow .restored-guide .home-analogy{font-size:14px;line-height:1.6}
+.original-flow .restored-guide .compact-preparation .round-board{width:min(100%,310px);margin:24px auto 32px}
+.original-flow .restored-guide .preparation-copy p{font-size:17px;line-height:1.7}
+.original-flow .restored-guide .preparation-copy .prep-secondary{font-size:15px}
+.original-flow .lesson-toolbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 22px;flex-shrink:0;font-size:13px}
+.original-flow .lesson-toolbar button{background:#f2f2f2;border:1px solid #e3e3e3;border-radius:999px;min-height:44px;padding:10px 16px;font-weight:700}
+.original-flow .lesson-index{display:flex;flex-direction:column;gap:10px}
+.original-flow .lesson-index button{display:flex;align-items:center;gap:14px;text-align:left;background:#f5f5f5;border:1px solid #e5e5e5;border-radius:16px;padding:14px;font-size:15px;line-height:1.5}
+.original-flow .lesson-index button[aria-current]{background:#111;color:white}
+.original-flow .step-controls{display:grid;grid-template-columns:52px minmax(0,1fr) 52px;align-items:center;gap:12px;flex-shrink:0;height:calc(100px + env(safe-area-inset-bottom));padding:14px 22px calc(14px + env(safe-area-inset-bottom));border-top:1px solid #e5e5e5;background:#fff;z-index:3}
+.original-flow .step-controls button{width:52px;height:52px;min-height:52px;display:grid;place-items:center;background:#f2f2f2;border:1px solid #e3e3e3;border-radius:50%;font-size:28px;line-height:1;color:#111}
+.original-flow .step-controls button:disabled{opacity:.25}
+.original-flow .step-controls>div{display:flex;flex-direction:column;text-align:center;gap:5px;min-width:0}
+.original-flow .step-controls strong{font-size:16px;font-variant-numeric:tabular-nums}
+.original-flow .step-controls span{font-size:11px;line-height:1.35;color:#666;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.original-flow .preserved-cards{flex:1;min-height:0;display:flex;flex-direction:column}
+.original-flow [hidden]{display:none!important}
+.original-flow .card-reader{flex:1;min-height:0;display:flex;flex-direction:column}
+.original-flow .card-reader .card-introduction{flex:1;min-height:0;overflow-y:auto;padding:24px 22px 32px;overscroll-behavior:contain}
+.original-flow .card-reader .single-combo-page{flex:none;min-height:0;padding-top:24px}
+.original-flow .card-reader .single-combo-copy{font-size:17px;line-height:1.7}
+.original-flow .card-reader .play-examples{margin:24px 0}
+.original-flow .card-reader .play-examples img{max-height:160px}
+.original-flow .restored-guide>.score-reference{overflow-y:auto;padding:28px 22px 40px;display:block}
+.original-flow .score-reference section{margin-top:32px;padding-bottom:24px;border-bottom:1px solid #eee}
+.original-flow .score-reference h2{font-size:21px;margin-bottom:20px}
+.original-flow .score-reference p{font-size:17px;line-height:1.7;margin:12px 0}
+.onboarding .brand-home:hover{background:transparent}
+.original-flow[hidden],.onboarding[hidden]{display:none!important}
+/* Logo row followed by category row, consistently across the guide. */
+.original-flow .restored-guide>.top-navigation,
+.onboarding .merged-guide:not(.view-home)>.top-navigation{height:148px;min-height:148px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:12px;padding:12px 22px;flex-shrink:0}
+.original-flow .top-navigation nav,
+.onboarding .merged-guide:not(.view-home) .top-navigation nav{flex:0 0 auto;width:100%;display:flex;justify-content:flex-start;gap:8px}
+.original-flow .top-navigation nav button,
+.onboarding .merged-guide:not(.view-home) .top-navigation nav button{flex:0 1 88px;min-height:44px;font-size:15px;padding:10px 14px;border-radius:999px}
+.onboarding .read-first,.onboarding .merged-guide .preparation{min-height:calc(100dvh - 148px)}
+.original-flow .step-controls>div{justify-content:center}
+.original-flow .step-controls strong{font-size:18px}
+/* All modal surfaces share the same rounded frame. */
+dialog,[role="dialog"],[role="alertdialog"],.original-flow dialog.special-summary-dialog,.onboarding dialog{border-radius:22px!important;overflow-y:auto;max-height:calc(100dvh - 40px);overscroll-behavior:contain}
+.original-flow .lesson-index,.original-flow .score-reference section{border-radius:18px}
+.original-flow .restored-guide>.top-navigation,.onboarding .merged-guide>.top-navigation{position:relative}
+.header-search{position:absolute;top:22px;left:136px;right:22px;height:44px;display:flex;align-items:center;border-bottom:2px solid #111;gap:4px}
+.header-search input{min-width:0;width:100%;background:transparent;border:0;outline:none;font:inherit;font-size:14px;color:#111;padding:8px 0}
+.header-search input:focus-visible{outline:2px solid #666;outline-offset:2px}
+.header-search button{display:grid;place-items:center;flex:0 0 44px;width:44px;height:44px;border:0;background:transparent!important;color:#111;padding:6px}
+.header-search svg{width:29px;height:29px;stroke-width:2}
+.guide-search-dialog{margin:auto;width:calc(100% - 32px);max-width:398px;padding:24px;background:white;color:#111;border:1px solid #ddd;max-height:85dvh}
+.guide-search-dialog::backdrop{background:#0009}
+.guide-search-dialog header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:20px}
+.guide-search-dialog h2{font-size:21px;margin:0;font-weight:700}
+.guide-search-dialog header button{border:0;background:#f2f2f2;border-radius:999px;padding:10px;font-size:14px;min-height:44px}
+.guide-search-dialog>input{width:100%;font:inherit;font-size:16px;padding:12px;border:1px solid #aaa;border-radius:12px;margin-bottom:16px}
+.search-results{display:flex;flex-direction:column;gap:8px}
+.search-results button{display:flex;align-items:center;gap:10px;text-align:left;background:#f5f5f5;border:1px solid #eee;border-radius:14px!important;padding:14px;font:inherit;line-height:1.5}
+.search-results button>span:first-child{font-size:11px;color:#666;white-space:nowrap}
+.search-results strong{flex:1;font-size:14px}.search-results p{font-size:15px;line-height:1.6}
+
+/* Stable, immediate content throughout the guide. */
+*, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+.motion-controls { display: none !important; }
+.original-flow .bomb-card-group { min-width:0; margin:24px 0; padding:20px 12px; border:1.5px solid #999; border-radius:18px; }
+.original-flow .bomb-card-group legend { padding:0 8px; font-size:16px; font-weight:800; }
+.original-flow .bomb-card-group .summary-help-cards { display:flex; gap:8px; margin:4px 0; }
+.original-flow .bomb-card-group .summary-help-cards img { width:100%; min-width:0; flex:1; object-fit:contain; }
+.original-flow .turn-popup-trigger { width:100%; padding:20px; border:1px solid #ccc; border-radius:18px; background:white; text-align:left; font-weight:700; }
+.original-flow .turn-dialog { width:calc(100% - 32px); max-width:420px; padding:22px; box-sizing:border-box; }
+.original-flow .turn-dialog section { margin:24px 0; padding:16px 12px; border:1.5px solid #aaa; border-radius:16px; background:white; }
+.original-flow .turn-dialog .turn-valid { border-color:#388158; }
+.original-flow .turn-dialog .turn-valid h2 { color:#216941; }
+.original-flow .turn-dialog .turn-invalid { border-color:#c45050; }
+.original-flow .turn-dialog .turn-invalid h2 { color:#ad3030; }
+.original-flow .turn-dialog h2 { font-size:19px; }
+.original-flow .turn-dialog p { font-size:15px; line-height:1.65; }
+.original-flow .turn-dialog .turn-card-line { gap:5px; }
+.original-flow .turn-dialog .turn-card-line img { max-width:48px; width:100%; height:auto; }
+.original-flow .turn-dialog .turn-group { min-width:0; gap:3px; }
+.original-flow .turn-dialog .turn-example-row { display:flex; flex-direction:column; align-items:stretch; gap:9px; margin-top:18px; }
+.original-flow .turn-dialog .turn-example-row>span { width:auto; font-size:14px; }
+.original-flow .turn-dialog .turn-card-line { display:flex; align-items:center; justify-content:space-between; width:100%; min-width:0; }
+.original-flow .turn-dialog .turn-card-line>div { display:flex; align-items:center; gap:4px; min-width:0; }
+.original-flow .turn-dialog .turn-card-line img { width:43px; flex-shrink:1; }
+.original-flow .turn-dialog .turn-card-line span { font-size:16px; flex-shrink:0; }
+.original-flow .turn-dialog .turn-pass h2 { color:#333; }
+
+.original-flow .lesson-index button.declaration-index-step { background:#e3f4e9; border-color:#9dceb0; color:#17633c; font-weight:800; }
+.original-flow .lesson-index button.declaration-index-step[aria-current="step"] { background:#197344; border-color:#197344; color:#fff; }
+.original-flow .lesson-index button.declaration-index-step span { color:inherit; }
+/* One complete lesson per viewport, with explanations before illustrations. */
+.original-flow .restored-guide .slide-window { display:flex; flex-direction:column; padding:10px 22px; overflow:hidden; }
+.original-flow .fit-lesson { flex:1; min-height:0; position:relative; }
+.original-flow .fit-lesson-content { width:100%; transform-origin:top center; }
+.original-flow .restored-guide .guide-slide { display:flex; flex-direction:column; gap:12px; }
+.original-flow .guide-slide>.rule-phase { order:-5; margin:0; }
+.original-flow .guide-slide>h1 { order:-4; margin:0; }
+.original-flow .guide-slide>.slide-copy { order:-3; }
+.original-flow .guide-slide>.slide-emphasis { order:-2; }
+.original-flow .guide-slide>.slide-note { order:-1; margin:0; }
+.original-flow .preparation-step { display:flex; flex-direction:column; gap:12px; }
+.original-flow .preparation-copy { margin:0; gap:8px; }
+.original-flow .preparation-copy p { margin:0; }
+.original-flow .game-board-demo { margin:6px auto 0; width:100%; }
+.original-flow .game-board-demo figcaption { margin-top:6px; }
+.original-flow .step-controls { height:calc(76px + env(safe-area-inset-bottom)); padding-top:10px; padding-bottom:calc(10px + env(safe-area-inset-bottom)); }
+.original-flow .restored-guide .reader-toolbar { padding-top:8px; padding-bottom:8px; }
+.original-flow .lesson-index { overflow-y:auto; min-height:0; }
+@media(max-height:760px){
+ .original-flow .restored-guide .top-navigation { height:126px; min-height:126px; padding-top:6px; padding-bottom:8px; gap:6px; }
+ .original-flow .restored-guide .header-search { top:12px; }
+ .original-flow .restored-guide .guide-slide h1 { font-size:25px; }
+}
+
+/* Compact text brand, icon-only search and outlined category buttons. */
+.original-flow .restored-guide .top-navigation,
+.onboarding .merged-guide .top-navigation { height:120px; min-height:120px; padding:12px 22px; gap:10px; }
+.onboarding .merged-guide.view-home .top-navigation { height:76px; min-height:76px; }
+.original-flow .restored-guide .brand-home,
+.onboarding .merged-guide .brand-home { width:auto; height:40px; min-height:40px; padding:0; display:flex; align-items:center; }
+.original-flow .restored-guide .brand-home .brand-wordmark,
+.onboarding .merged-guide .brand-home .brand-wordmark { display:block; width:auto; height:auto; overflow:visible; font-family:inherit; font-size:28px; font-weight:850; line-height:1.2; letter-spacing:-1px; }
+.original-flow .restored-guide .search-icon-button,
+.onboarding .merged-guide .search-icon-button { position:absolute; top:10px; right:16px; left:auto; width:44px; height:44px; min-height:44px; padding:9px; border:0; border-radius:50%; background:transparent; color:#111; display:grid; place-items:center; }
+.search-icon-button svg { width:25px; height:25px; stroke-width:1.6; }
+.original-flow .restored-guide .top-navigation nav,
+.onboarding .merged-guide .top-navigation nav { display:flex; width:auto; gap:10px; }
+.original-flow .restored-guide .top-navigation nav button,
+.onboarding .merged-guide .top-navigation nav button { flex:0 0 auto; width:72px; height:34px; min-height:34px; padding:0 16px; border:1px solid #222; border-radius:999px; background:#fff; color:#111; font-size:14px; font-weight:700; }
+.original-flow .restored-guide .top-navigation nav button[aria-current="page"] { background:#111; color:#fff; border-color:#111; }
+/* Give the home introduction icons more space below the title. */
+.onboarding .view-home .home-facts { margin-top:24px; }
+
+.onboarding .merged-guide.view-prepare .top-navigation { height:76px; min-height:76px; }
+
+/* Shared detail-page masthead, inspired by the supplied reference. */
+.original-flow .restored-guide .top-navigation { height:126px; min-height:126px; padding:12px 18px; gap:10px; background:#d4d4d4; border-bottom:1px solid #777; }
+.original-flow .restored-guide .brand-home { height:44px; min-height:44px; background:#111; border-radius:9px 9px 0 0; padding:2px 9px; }
+.original-flow .restored-guide .brand-home .brand-wordmark { color:#fff; font-size:34px; font-weight:950; letter-spacing:-1px; line-height:1.1; }
+.original-flow .restored-guide .top-navigation nav { gap:8px; padding-right:42px; }
+.original-flow .restored-guide .top-navigation nav button { width:66px; height:38px; min-height:38px; padding:0 12px; border:2px solid #191919; background:transparent; font-size:14px; }
+.original-flow .restored-guide .top-navigation nav button[aria-current="page"] { background:#111; color:#fff; }
+.original-flow .restored-guide .search-icon-button { top:64px; right:12px; width:44px; height:44px; }
+.original-flow .restored-guide .search-icon-button:focus-visible { outline:2px solid #111; outline-offset:1px; }
+/* Final shared visual hierarchy. */
+.original-flow .restored-guide .top-navigation { background:#fff; border-bottom:1px solid #e5e5e5; }
+.original-flow .restored-guide .search-icon-button { top:63px; }
+.onboarding .view-home .merged-home { height:100dvh; min-height:560px; padding-top:90px; }
+.original-flow .step-title-bar { order:-5; display:grid; grid-template-columns:38px minmax(0,1fr) 38px; align-items:center; gap:5px; padding:9px 6px; border-radius:32px; background:#111; color:white; min-height:56px; }
+.original-flow .restored-guide .step-title-bar h1 { margin:0; color:white; font-size:18px; line-height:1.35; text-align:center; }
+.original-flow .step-title-bar button { width:38px; height:38px; padding:0; background:transparent; border:0; color:white; font-size:30px; }
+.original-flow .step-title-bar button:disabled { opacity:.25; }
+.original-flow .guide-slide>.slide-note { order:2; padding:12px 14px; border-radius:14px; background:#f4f4f4; font-size:14px; }
+.original-flow .preparation-copy .prep-secondary { padding:10px 12px; border-radius:12px; background:#f4f4f4; font-size:14px; }
+.original-flow .tichu-score-pair { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin:4px 0 14px; }
+.original-flow .tichu-score-pair>div { display:flex; flex-direction:column; align-items:center; padding:18px 8px; border-radius:18px; background:#e3f3e7; color:#111; }
+.original-flow .tichu-score-pair>div+div { background:#fbe5e5; }
+.original-flow .tichu-score-pair span { color:#111; font-size:15px; font-weight:700; }
+.original-flow .tichu-score-pair strong { color:#111; font-size:29px; font-weight:900; line-height:1.4; }
+.original-flow .tichu-definition h3 { font-size:18px; margin:10px 0 8px; }
+.original-flow .hand-advice section { background:#f5f5f5; border-radius:16px; padding:16px; margin:16px 0; }
+.original-flow .hand-advice h3 { font-size:19px; margin:0 0 10px; }
+.original-flow .hand-advice p { font-size:15px; line-height:1.65; }
+.original-flow .hand-example { margin:18px 0; }
+.original-flow .hand-advice .summary-help-cards { display:flex; gap:5px; margin:10px 0; }
+.original-flow .hand-advice .summary-help-cards img { width:calc((100% - 20px)/5); height:auto; object-fit:contain; }
+.original-flow .turn-dialog .turn-pass { background:#f4f4f4; border-color:#ddd; }
+.original-flow .single-combo-page .play-examples,
+.original-flow .single-combo-page .example-cards,
+.original-flow .ordinary-section .intro-card-row { background:#f6f6f6; padding:16px 10px; border-radius:18px; }
+.original-flow .single-combo-copy { font-weight:700; line-height:1.65; }
+.original-flow .combo-note,.original-flow .lesson-finish { background:#f4f4f4; border-radius:14px; padding:12px 14px; }
+.original-flow .score-reference>section { background:#f5f5f5; border:0; border-radius:18px; padding:20px 16px; margin:18px 0; }
+.original-flow .score-reference>section h2 { margin-top:0; font-size:20px; }
+.original-flow .restored-guide .top-navigation { display:grid; grid-template-columns:minmax(0,1fr) 44px; grid-template-rows:44px 44px; row-gap:8px; align-content:center; }
+.original-flow .restored-guide .brand-home { grid-column:1 / -1; grid-row:1; justify-self:start; }
+.original-flow .restored-guide .top-navigation nav { grid-column:1; grid-row:2; padding-right:0; align-items:center; height:44px; }
+.original-flow .restored-guide .search-icon-button { position:static; grid-column:2; grid-row:2; align-self:center; }
+
+/* Reference layout: no duplicate bottom pager. */
+.onboarding .view-home .merged-home { grid-template-rows:minmax(220px,1fr) auto auto; padding-top:clamp(32px,8dvh,80px); padding-bottom:max(28px,env(safe-area-inset-bottom)); gap:26px; }
+.onboarding .view-home .home-product { grid-row:1; }
+.onboarding .view-home .home-facts { grid-row:2; margin-top:0; }
+.onboarding .view-home .primary-button { grid-row:3; }
+.original-flow .restored-guide .slide-window { padding-bottom:max(24px,env(safe-area-inset-bottom)); }
+.original-flow .declaration-step .preparation-copy { display:flex; flex-direction:column; }
+.original-flow .declaration-step .tichu-definition { order:0; }
+.original-flow .declaration-step .tichu-score-pair { order:1; margin:12px 0; }
+.original-flow .declaration-step .tichu-help-button { order:2; }
+.original-flow .tichu-score-pair>div { padding:22px 8px; min-height:120px; justify-content:center; }
+.original-flow .card-stage-bar { flex-shrink:0; margin:20px 22px 0; }
+.original-flow .card-stage-bar h2 { color:#fff; font-size:17px; line-height:1.35; margin:0; text-align:center; }
+.original-flow .card-reader .card-introduction { padding-bottom:max(24px,env(safe-area-inset-bottom)); }
+
+.onboarding .merged-guide.view-home,
+.onboarding .view-home .merged-home { background:#d4d4d4; }
+.original-flow .rule-overview>section { background:#f5f5f5; border-radius:16px; padding:12px; margin:12px 0; }
+.original-flow .combination-overview>section { background:#f5f5f5; border-radius:14px; padding:10px 12px; margin:8px 0; }
+
+/* PDF reference: grey masthead and inline turn examples. */
+.original-flow .restored-guide .top-navigation { background:#d4d4d4; }
+.original-flow .turn-inline>p { margin:0 0 10px; font-size:15px; font-weight:700; }
+.original-flow .turn-inline section { padding:12px; margin:10px 0; border:1.5px solid #388158; border-radius:16px; background:white; }
+.original-flow .turn-inline section.turn-invalid { border-color:#bc4747; }
+.original-flow .turn-inline h2 { margin:0 0 8px; font-size:18px; color:#24734a; }
+.original-flow .turn-inline .turn-invalid h2,.original-flow .turn-inline .turn-invalid b { color:#af3030; }
+.original-flow .turn-inline .turn-example-row { display:flex; align-items:center; gap:8px; margin-top:10px; }
+.original-flow .turn-inline .turn-example-row>span { flex:0 0 62px; width:62px; font-size:12px; }
+.original-flow .turn-inline .turn-card-line { display:flex; flex:1; align-items:center; justify-content:space-between; gap:3px; min-width:0; }
+.original-flow .turn-inline .turn-card-line>div { display:flex; align-items:center; gap:3px; min-width:0; }
+.original-flow .turn-inline .turn-card-line img { width:34px; height:auto; }
+.original-flow .turn-inline .turn-card-line span { font-size:17px; }
+.original-flow .turn-inline .turn-invalid p { font-size:13px; margin:10px 0 0; }
+.original-flow .turn-inline section.turn-pass { background:#f4f4f4; border-color:#ddd; }
+.original-flow .turn-inline .turn-pass h2 { color:#111; font-size:16px; }
+.original-flow .turn-inline .turn-pass p { font-size:14px; line-height:1.55; margin:6px 0; }
+.original-flow .turn-inline .turn-pass .turn-note { color:#666; font-size:12px; }
+
+/* Keep navigation outside the content scaling area. */
+.original-flow .slide-window>.step-title-bar { flex:0 0 60px; height:60px; min-height:60px; width:100%; box-sizing:border-box; margin:0 0 16px; }
+.original-flow .restored-guide .step-title-bar h1 { font-size:18px; }
+.original-flow .step-title-bar[hidden] { display:none!important; }
+
+/* Emphasize the dragon trick transfer rule. */
+.original-flow .restored-guide .slide-copy .dragon-transfer-warning {
+  border:2px solid #d84646;
+  border-radius:14px;
+  background:#fff0f0;
+  color:#a52323;
+  padding:14px 16px;
+  margin:0 0 12px;
+  font-size:18px;
+  font-weight:800;
+  line-height:1.55;
+}

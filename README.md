@@ -2,7 +2,7 @@
 
 Next.js 15의 정적 내보내기를 사용합니다. Vercel이 필요하지 않습니다.
 
-배포 사이트: https://aladding.github.io/tichulearnbook/
+배포 사이트: https://kuchipatchi123.github.io/tichulearnbook/
 
 ## 가장 쉬운 업로드 방법 (Mac)
 
@@ -12,7 +12,7 @@ Next.js 15의 정적 내보내기를 사용합니다. Vercel이 필요하지 않
 
 ## 배포하기
 
-1. 이 압축파일의 **내용물 전체**(상위 폴더가 아닌 `package.json`을 포함한 파일들)를 `aladding/tichulearnbook` 저장소 **루트에 덮어쓰기** 합니다. 특히 숨겨진 `.github/workflows/deploy.yml`도 반드시 포함합니다.
+1. 이 압축파일의 **내용물 전체**(상위 폴더가 아닌 `package.json`을 포함한 파일들)를 `kuchipatchi123/tichulearnbook` 저장소 **루트에 덮어쓰기** 합니다. 특히 숨겨진 `.github/workflows/deploy.yml`도 반드시 포함합니다.
 2. GitHub 저장소의 **Settings → Pages → Build and deployment → Source**에서 **GitHub Actions**를 선택합니다.
 3. 수정 파일을 `main` 브랜치에 커밋/푸시하면 **Actions → Deploy Tichu guide to GitHub Pages**가 자동 실행됩니다. `master` 브랜치도 지원합니다.
 4. 두 작업(`build`, `deploy`)이 초록색 체크로 끝나면 위 주소에서 확인합니다.
@@ -34,7 +34,7 @@ npm run typecheck
 npm run build
 ```
 
-빌드 후 `out/index.html`과 `out/tichulearnbook`이 아닌 `out/cards`, `out/images`, `out/fonts`의 정적 자산이 생성됩니다. 실제 URL은 `https://aladding.github.io/tichulearnbook/cards/...` 형태로 접근합니다.
+빌드 후 `out/index.html`과 `out/tichulearnbook`이 아닌 `out/cards`, `out/images`, `out/fonts`의 정적 자산이 생성됩니다. 실제 URL은 `https://kuchipatchi123.github.io/tichulearnbook/cards/...` 형태로 접근합니다.
 
 ## 구성과 변경사항
 
